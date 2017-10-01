@@ -1649,3 +1649,27 @@ body > footer .copyrights {
   max-width: 100%;
   height: auto;
 }
+
+
+
+
+.mySlides {
+  display:none;
+  height:250px;
+  width:300px;
+}
+.w3-left, .w3-right, .w3-badge {
+  cursor:pointer;
+  color: white;
+}
+.w3-badge {
+  height:13px;
+  width:13px;
+  padding:0;
+  color: black;
+}
+
+.hobbiesdetails{
+  height:70px;
+  background-color: #333333;
+}

@@ -14,6 +14,7 @@
         <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
         <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
         <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
         <!-- PAGE LEVEL PLUGIN STYLES -->
         <link href="css/animate.css" rel="stylesheet">
@@ -44,6 +45,7 @@
                               <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
                               <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Experience</a></li>
                               <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#timeline">Timeline</a></li>
+                              <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#hobbies">Hobbies</a></li>
                               <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
                           </ul>
                       </div>
@@ -179,7 +181,7 @@
                                       </div>
                                       <div class="service-info">
                                           <h3>Online project</h3>
-                                          <p margin-b-5>Build a website including front-end and back-end for a primary school.</p>
+                                          <p class="margin-b-5">Build a website including front-end and back-end for a primary school.</p>
                                       </div>
                                       <a href="#" class="content-wrapper-link"></a>
                                   </div>
@@ -284,6 +286,7 @@
                                     <p class="text-muted">Still have a lot to learn,</p>
                                     <p class="text-muted"> a long way to go.</p>
                                   </div>
+                                </div>
                               </li>
 
                             </ul>
@@ -294,6 +297,83 @@
               </div>
       </div>
       <!-- End Timeline -->
+
+
+      <!-- Hobbies -->
+      <div id="hobbies">
+          <div class="bg-color-sky-light" data-auto-height="true">
+              <div class="container content-lg">
+                  <div class="row">
+                      <div class="col-sm-3 sm-margin-b-30">
+                          <div class="text-right sm-text-left">
+                              <h2 class="blackheader">Hobbies & Interests</h2>
+                              <p class="blackp">Enjoy every second in your life.</p>
+                          </div>
+                      </div>
+
+                      <div class="col-sm-8 col-sm-offset-1">
+                          <div class="margin-b-60">
+
+
+                            <div class="w3-content w3-display-container" style="max-width:800px">
+                              <img class="mySlides" src="./img/travelling.png" style="width:100%">
+                              <img class="mySlides" src="./img/skiing.jpg" style="width:100%">
+                              <img class="mySlides" src="./img/reading.jpg" style="width:100%">
+                              <div class="hobbiesdetails">
+                              </div>
+                              <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                                <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                                <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                                <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                              </div>
+                            </div>
+
+                            <script>
+                              var slideIndex = 1;
+                              showDivs(slideIndex);
+
+                              function plusDivs(n) {
+                                showDivs(slideIndex += n);
+                              }
+
+                              function currentDiv(n) {
+                                showDivs(slideIndex = n);
+                              }
+
+                              function showDivs(n) {
+                                var i;
+                                var x = document.getElementsByClassName("mySlides");
+                                var dots = document.getElementsByClassName("demo");
+                                if (n > x.length) {slideIndex = 1}
+                                if (n < 1) {slideIndex = x.length}
+                                for (i = 0; i < x.length; i++) {
+                                   x[i].style.display = "none";
+                                }
+                                for (i = 0; i < dots.length; i++) {
+                                   dots[i].className = dots[i].className.replace(" w3-white", "");
+                                }
+                                x[slideIndex-1].style.display = "block";
+                                dots[slideIndex-1].className += " w3-white";
+                              }
+                            </script>
+
+
+
+
+
+
+
+                          </div>
+                      </div>
+                  </div>
+                  <!--// end row -->
+              </div>
+          </div>
+      </div>
+      <!-- End Hobbies -->
+
 
       <!--Contacts-->
       <div id="contact">
@@ -342,7 +422,6 @@
           <!-- Back To Top -->
           <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
       </footer>
-
 
 
 
