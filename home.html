@@ -217,7 +217,7 @@
                           <div class="text-right sm-text-left">
                               <h2 class="margin-b-0">TimeLine</h2>
                               <p>My timeline, my growth and story.</p>
-                              <button class="linkButton">Find out more</button>
+                              <!--<button class="linkButton">Find out more</button>-->
                           </div>
                       </div>
                       <div class="col-sm-8 col-sm-offset-1">
@@ -378,6 +378,23 @@
                                   <a href="#">thisWebsite.com</a>
                               </div>
                           </div>
+                          <br>
+                          <br>
+                          <h5>My location</h5>
+                          <div id="map" style="width:100%;height:400px;"></div>
+
+                          <script>
+                          function myMap() {
+                            var myCenter = new google.maps.LatLng(-27.48532,152.990576);
+                            var mapCanvas = document.getElementById("map");
+                            var mapOptions = {center: myCenter, zoom: 12};
+                            var map = new google.maps.Map(mapCanvas, mapOptions);
+                            var marker = new google.maps.Marker({position:myCenter});
+                            marker.setMap(map);
+                          }
+                          </script>
+
+                          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD0n3sGi1zJRmtGRuzguppVmxHtqKGE8Mk&callback=myMap"></script>
                       </div>
                   </div>
                   <!--// end row -->
