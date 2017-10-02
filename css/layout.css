@@ -768,6 +768,7 @@ fieldset[disabled] .btn-theme {
   .header .menu-container:before, .header .menu-container:after {
     content: " ";
     display: table;
+
   }
   .header .menu-container:after {
     clear: both;
@@ -799,6 +800,7 @@ fieldset[disabled] .btn-theme {
     padding-right: 15px;
     margin-left: 0;
     margin-right: 0;
+
   }
   .header .navbar > .container {
     width: auto;
@@ -806,6 +808,7 @@ fieldset[disabled] .btn-theme {
     padding-right: 0;
     margin-left: 0;
     margin-right: 0;
+
   }
   .header .navbar > .container > .nav-collapse {
     padding-left: 0;
@@ -1050,6 +1053,7 @@ fieldset[disabled] .btn-theme {
 .container-full-width {
   margin-right: auto;
   margin-left: auto;
+
 }
 
 .container-full-width:before, .container-full-width:after {
@@ -1115,6 +1119,7 @@ fieldset[disabled] .btn-theme {
 .content-lg {
   padding-top: 100px;
   padding-bottom: 100px;
+
 }
 
 /*------------------------------------------------------------------
@@ -1584,6 +1589,51 @@ body > footer .copyrights {
   .timeline .timeline-body > ul,
   .timeline .timeline-body > p {
     margin-bottom: 0; }
+
+/*Effects*/
+.timeline > li .timeline-panel {
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+  }
+
+  .timeline > li .timeline-panel {
+    transform: translate3d(-40px, 0, 0);
+  }
+
+  .timeline > li.timeline-inverted > .timeline-panel {
+    transform: translate3d(40px, 0, 0);
+  }
+
+  .timeline > li .timeline-panel.in-view {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  /* GENERAL MEDIA QUERIES OF EFFECTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+  @media screen and (max-width: 900px) {
+    .timeline > li .timeline-panel {
+      width: 250px;
+    }
+    .timeline > li.timeline-inverted > .timeline-panel {
+      left: -200px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .timeline > li .timeline-panel {
+      margin-left: 5px;
+    }
+
+    .timeline > li.timeline-inverted > .timeline-panel {
+      left: -100px;
+      margin-left: 5px;
+    }
+  }
+
 
 @media (min-width: 768px) {
   .timeline:before {
