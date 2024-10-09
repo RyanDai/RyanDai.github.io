@@ -11,8 +11,8 @@ class About extends Component {
     const wechat_pic = "images/" + this.props.data.wechat_pic
     // const bio = this.props.data.bio;
     const club_desc = this.props.data.club_desc
+    const club_points = this.props.data.club_points
     const email = this.props.data.email
-    const facebook = this.props.data.facebook
     const youtube = this.props.data.youtube
     const wechat = this.props.data.wechat
 
@@ -24,12 +24,17 @@ class About extends Component {
               <img className="profile-pic" src={profilepic} alt="Dr. Stem Profile" />
             </div>
             <div className="nine columns main-col">
-              <h2>About the Club</h2>
+              <h2>About Buyer Agent Service</h2>
               <p>
+                <b>{club_points.line1}</b>
                 {club_desc.line1}
                 <br />
+                <br />
+                <b>{club_points.line2}</b>
                 {club_desc.line2}
                 <br />
+                <br />
+                <b>{club_points.line3}</b>
                 {club_desc.line3}
               </p>
             </div>
@@ -40,8 +45,15 @@ class About extends Component {
               <img className="drcheng-pic" src={drcheng_pic} alt="Dr. Stem Profile" />
             </div>
             <div className="nine columns main-col">
-              <h2>Who is Dr. Cheng</h2>
-              <p>{this.props.data.bio}</p>
+              <h2>About Me</h2>
+              {/* <p>{this.props.data.bio}</p> */}
+              <p>
+                As an experienced buyer agent, I specialize in using the latest property data to assist clients in identifying and purchasing properties that
+                are perfectly suited to their financial goals. By understanding each client’s unique financial situation, I help them make informed decisions
+                that maximize value and long-term returns. In addition to property acquisition, I provide tailored financial advice aimed at enhancing passive
+                income streams, drawing from my expertise in real estate investment. With a personal portfolio of six properties, I have firsthand knowledge of
+                the investment landscape, enabling me to offer practical, results-driven strategies for building wealth through real estate.
+              </p>
             </div>
           </div>
 
@@ -59,11 +71,9 @@ class About extends Component {
                     <br />
                     {this.props.data.address}
                     <br />
-                    Wechat: {wechat}
+                    {wechat}
                     <br />
-                    Email: {email}
-                    <br />
-                    Facebook: {facebook}
+                    {email}
                     <br />
                     YouTube: {youtube}
                     <br />
