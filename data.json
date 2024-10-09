@@ -3,21 +3,25 @@
     "name": "Dr STEM Robotics Club",
     "description": "Empowering the next generation to thrive in the world of STEM.",
     "image": "DSRC.jpg",
+    "club_points": {
+      "line1": "Comprehensive Property Search & Due Diligence: ",
+      "line2": "Negotiation & Contract Review: ",
+      "line3": "Pre-Settlement Support & Professional Referrals: "
+    },
     "club_desc": {
-      "line1": "Founded by Dr. Shane Cheng in 2023, DR STEM Robotics Club in Mansfield, Queensland, is the ideal environment for young robotics enthusiasts aged 9 to 16. Our weekly sessions focus on hands-on learning, expert coaching, and teamwork, fostering creativity and innovation in a fun, inclusive space.",
-      "line2": "While our club has already excelled in competitions such as FIRST LEGO League, RoboCup Junior, and RoboRAVE World Championship, our primary mission is to nurture a love for STEM, helping kids grow as learners and innovators.",
-      "line3": "If your child is passionate about robots and technology, join the DR STEM Robotics Club family—where tomorrow’s trailblazers begin their journey today!"
+      "line1": "We begin with strategic sessions to plan the client’s investment portfolio, followed by an extensive search for investment properties that align with their specific selection criteria. Once potential properties are identified, we conduct thorough inspections and comprehensive due diligence to ensure each property meets our client's needs and investment goals. Additionally, we provide a detailed market analysis to assess the property's value and potential return on investment.",
+      "line2": "Our team expertly negotiates the purchase price and terms with the vendor or their representative, advocating for the best possible outcome for our clients. We also conduct a meticulous review of the purchase contract to identify any potential issues and ensure that the terms are favorable. This careful attention to detail helps protect our clients' interests throughout the buying process.",
+      "line3": "We offer dedicated pre-settlement support to guide clients through the final steps of the property acquisition process, addressing any questions or concerns that may arise. Furthermore, we connect clients with trusted third-party professionals, such as conveyancers, property managers, quantity surveyors, and building and pest inspectors, to facilitate a smooth and efficient investment property purchase. This comprehensive support ensures our clients feel confident and informed every step of the way."
     },
     "bio": "Dr. Shane Cheng, a skilled electronic engineer, software developer, and data scientist with a PhD in Computer Vision—and a passionate father of two. In 2023, Dr. Cheng noticed something troubling: many kids who were excited about robotics were missing out because their schools didn’t offer robotics programs. Driven by his love for technology and education, he decided to make a difference. That’s when DR STEM Robotics Club was born. Through hands-on weekly workshops and expert coaching, Dr. Cheng is dedicated to helping young minds grow by fostering creativity, problem solving, and teamwork in a fun, engaging environment.",
     "pride": "Under Dr. Cheng's mentorship, his teams have quickly risen to national prominence. His team, \"The Wall-E Pro,\" won first place in the rescue maze at the National RoboCup Junior Australia, while his team, \"Error 451,\" earned third place in the primary rescue line at the same event. In addition, his First Lego League team, \"Brickbot Battalion,\" secured first place in robot performance at the 2023 First Lego League Australia National North competition. Dr. Cheng's DR STEM Robotics Club is not just about building robots; it’s about building confidence, leadership, and a love of innovation. By providing students with the tools and guidance they need to succeed, Dr. Cheng is empowering the next generation to thrive in the rapidly evolving world of STEM.",
-    "contactmessage": "Thinking about joining our club?",
-    "email": "drstemrc@gmail.com",
+    "contactmessage": "Thinking about buying a investment property",
+    "email": "Ryandaiproperty@gmail.com",
     "github": "https://github.com/CyberlarkCode",
     "project": "https://github.com/CyberlarkCode",
-    "address": "Mansfield, Queensland, Australia",
-    "facebook": "DR STEM Robotics Club",
+    "address": "Underwood, Queensland, Australia",
     "youtube": "@DRSTEMRoboticsClub",
-    "wechat": "Lily_luo1119",
+    "wechat": "/",
     "wechat_pic": "wechat.jpg",
     "drcheng": "dr_working.jpeg",
     "website": "http://cyberlark.com.au",
