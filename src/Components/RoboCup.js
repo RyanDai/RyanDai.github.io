@@ -11,22 +11,42 @@ class RoboCup extends Component {
           <div className="row skill">
             <div className="three columns header-col">
               <h1>
-                <span>RoboCup Junior</span>
+                <span>经典案例</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">
-              <iframe
-                className="roboCupVideo"
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/v7CEL-KYMAM?si=eqO6D_JLVAn5iBdH"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-              ></iframe>{" "}
+              <div className="row item">
+                <div className="twelve columns">
+                  <div className="prideContainer">
+                    <h3>黄金海岸Upper Coomera</h3>
+                    <p>
+                      购于2024年中，422户型460地，81w就拿下当时估价85w，市场价86-88w的别墅
+                      <br />
+                      <em className="date">租金820每周，租金回报5.1%</em>
+                    </p>
+                    <img src="images/uc.jpg" alt="pride" />
+                  </div>
+                  <div className="prideContainer">
+                    <h3>珀斯Ellenbrook</h3>
+                    <p>
+                      购于2023年中，322户型350地，买入价42w，2024年七月市场估价64w
+                      <br />
+                      <em className="date">现租金620每周，租金回报7.6%</em>
+                    </p>
+                    <img src="images/ellen.jpg" alt="pride" />
+                  </div>
+                  <div className="prideContainer">
+                    <h3>布里斯班Kallangur</h3>
+                    <p>
+                      购于2022年末，422户型620地，买入价61w，2024年七月市场估价88w
+                      <br />
+                      <em className="date">租金780每周，租金回报6.5%</em>
+                    </p>
+                    <img src="images/kall.jpg" alt="pride" />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </Slide>

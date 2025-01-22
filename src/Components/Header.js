@@ -25,36 +25,36 @@ class Header extends Component {
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
-                Home
+                首页
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#about">
-                About
+                关于服务
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#resume">
-                Our Pride
+                买房流程
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#milestones">
-                Milestones
+                买房细节
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#robocup">
-                RoboCup
+                经典案例
               </a>
             </li>
             <li>
               <a className="smoothscroll" href="#contact">
-                Contact
+                联系我们
               </a>
             </li>
           </ul>
@@ -72,18 +72,18 @@ class Header extends Component {
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
-              {/* <ul className="social">
+              <ul className="social">
                 <li>
-                  <a href="#portfolio" className="button btn project-btn">
-                    <i className="fa fa-book"></i>Our Work
+                  <a href="https://www.xiaohongshu.com/user/profile/5be1a497848b020001a0569b" className="button btn project-btn">
+                    <i className="fa fa-book"></i>小红书
                   </a>
                 </li>
                 <li>
-                  <a href={github} className="button btn github-btn">
+                  <a href="https://www.youtube.com/@RyanDaiAU" className="button btn github-btn">
                     <i className="fa fa-youtube"></i>Youtube
                   </a>
                 </li>
-              </ul> */}
+              </ul>
             </Fade>
           </div>
         </div>

@@ -31,9 +31,9 @@ body {
 /* ------------------------------------------------------------------ */
 
 #logo-image {
-  background-image: url("../images/logo_black.jpg");
+  background-image: url("../images/logo.jpg");
   width: 100%; /* Set the width of the div */
-  height: 250px;
+  height: 200px;
   margin: auto;
   background-size: contain; /* Ensures the image covers the entire div */
   background-position: center; /* Centers the image in the div */
@@ -101,7 +101,7 @@ header .banner-text hr {
 
 /* header social links */
 header .social {
-  margin: 24px 0;
+  margin: 200px 0;
   padding: 0;
   font-size: 30px;
 }
@@ -233,8 +233,13 @@ ul#nav li.current a {
 }
 
 #about h2 {
-  font: 22px/30px "opensans-bold", sans-serif;
+  font: 26px/34px "opensans-bold", sans-serif;
   color: #fff;
+  margin-bottom: 12px;
+}
+#about h3 {
+  font: 18px/28px "opensans-bold", sans-serif;
+  color: #cdcdcd;
   margin-bottom: 12px;
 }
 #about p {
@@ -393,7 +398,7 @@ ul#nav li.current a {
 }
 
 .prideContainer {
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
 
 /* Styling */
@@ -1401,21 +1406,27 @@ footer .social-links li:first-child {
   background-color: #0f9095;
 }
 
+.social {
+  padding-top: 60px;
+}
+
 .social .btn:first-child {
   margin-right: 30px;
 }
 .social .btn {
   padding-left: 30px;
   padding-right: 30px;
+  height: 60px;
+  width: 180px;
 }
 .social .btn i {
-  margin-right: 5px;
+  margin: auto;
   height: 24px;
   width: 30px;
 }
 .project-btn {
-  background-color: #1abc9c !important;
+  background-color: #d76c6c !important;
 }
 .github-btn {
-  background-color: #34495e !important;
+  background-color: #316090 !important;
 }
