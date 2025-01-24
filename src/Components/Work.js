@@ -7,7 +7,7 @@ class Work extends Component {
 
     return (
       <section id="resume">
-        <Slide left duration={1300}>
+        <Slide left duration={1300} triggerOnce>
           <div className="row education">
             <div className="three columns header-col">
               <h1>

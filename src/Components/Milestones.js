@@ -7,7 +7,7 @@ class Milestones extends Component {
 
     return (
       <section id="milestones">
-        <Slide left duration={1300}>
+        <Slide left duration={1300} triggerOnce>
           <div className="row work">
             <div className="three columns header-col">
               <h1>

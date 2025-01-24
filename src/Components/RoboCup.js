@@ -7,7 +7,7 @@ class RoboCup extends Component {
 
     return (
       <section id="robocup">
-        <Slide left duration={1300}>
+        <Slide left duration={1300} triggerOnce>
           <div className="row skill">
             <div className="three columns header-col">
               <h1>

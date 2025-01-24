@@ -64,14 +64,14 @@ class Header extends Component {
           <div id="logo-image"></div>
 
           <div className="banner-text">
-            <Fade bottom>
+            <Fade bottom triggerOnce>
               <h1 className="responsive-headline">{name}</h1>
             </Fade>
-            <Fade bottom duration={1200}>
+            <Fade bottom duration={1200} triggerOnce>
               <h2>{description}</h2>
             </Fade>
             <hr />
-            <Fade bottom duration={2000}>
+            <Fade bottom duration={2000} triggerOnce>
               <ul className="social">
                 <li>
                   <a href="https://www.xiaohongshu.com/user/profile/5be1a497848b020001a0569b" className="button btn project-btn">
