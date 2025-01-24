@@ -4,7 +4,6 @@ import About from "./Components/About"
 import Work from "./Components/Work"
 import Milestones from "./Components/Milestones"
 import RoboCup from "./Components/RoboCup"
-import Portfolio from "./Components/Portfolio"
 import Contact from "./Components/Contact"
 
 class Home extends Component {
@@ -19,7 +18,6 @@ class Home extends Component {
         <Milestones data={data.work} />
         <RoboCup data={data.work} />
         <Contact data={data.main} />
-        <Portfolio data={data.portfolio} />
       </div>
     )
   }

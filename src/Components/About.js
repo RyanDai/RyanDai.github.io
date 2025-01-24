@@ -53,34 +53,6 @@ class About extends Component {
               </p>
             </div>
           </div>
-
-          {/* <div className="row">
-            <div className="three columns"></div>
-            <div className="nine columns main-col contact-container">
-              <div className="contact-details">
-                <h2>Contact Details</h2>
-                <p className="address">
-                  <span>
-                    {name}
-                    <br />
-                    {this.props.data.address}
-                    <br />
-                    {wechat}
-                    <br />
-                    {email}
-                    <br />
-                    YouTube: {youtube}
-                    <br />
-                  </span>
-                </p>
-              </div>
-              <div className="download">
-                <p>
-                  <img className="contact-pic" src={wechat_pic} alt="Wechat Contact" />
-                </p>
-              </div>
-            </div>
-          </div> */}
         </Fade>
       </section>
     )

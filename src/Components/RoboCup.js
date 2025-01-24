@@ -45,6 +45,24 @@ class RoboCup extends Component {
                     </p>
                     <img src="images/kall.jpg" alt="pride" />
                   </div>
+                  <div className="prideContainer">
+                    <h3>珀斯Mandurah</h3>
+                    <p>
+                      购于2023年末，422户型800地，买入价52w，2024年七月市场估价66w
+                      <br />
+                      <em className="date">租金620每周，租金回报6.2%</em>
+                    </p>
+                    <img src="images/mandurah.jpg" alt="pride" />
+                  </div>
+                  <div className="prideContainer">
+                    <h3>布里斯班Loganholme</h3>
+                    <p>
+                      购于2022年末，422户型590地，买入价64w，2024年七月市场估价85w
+                      <br />
+                      <em className="date">租金720每周，租金回报5.9%</em>
+                    </p>
+                    <img src="images/logan.jpg" alt="pride" />
+                  </div>
                 </div>
               </div>
             </div>

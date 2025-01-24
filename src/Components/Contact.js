@@ -98,93 +98,33 @@ class Contact extends Component {
         </div>
 
         <div className="row">
-          <div className="eight columns">
-            <div id="contactForm">
-              <fieldset>
-                <div>
-                  <label htmlFor="fromName">
-                    Parent Name <span className="required">*</span>
-                  </label>
-                  <input type="text" size="35" id="fromName" name="fromName" value={this.state.fromName} onChange={this.handleChange} required />
-                </div>
-                <div>
-                  <label htmlFor="studentName">
-                    Student Name <span className="required">*</span>
-                  </label>
-                  <input type="text" size="35" id="studentName" name="studentName" value={this.state.studentName} onChange={this.handleChange} required />
-                </div>
-                <div>
-                  <label htmlFor="studentYear">
-                    Student Year <span className="required">*</span>
-                  </label>
-                  <input type="text" size="35" id="studentYear" name="studentYear" value={this.state.studentYear} onChange={this.handleChange} required />
-                </div>
-                <div>
-                  <label htmlFor="type">
-                    Type <span className="required">*</span>
-                  </label>
-                  <select id="type" name="type" value={this.state.type} onChange={this.handleChange} required>
-                    <option value="" disabled>
-                      Select...
-                    </option>
-                    <option value="Enquire">Enquire</option>
-                    <option value="Feedback">Feedback</option>
-                    <option value="Complaints">Complaints</option>
-                  </select>
-                </div>
-                <div>
-                  <label htmlFor="interest">
-                    Area of Interest <span className="required">*</span>
-                  </label>
-                  <select id="interest" name="interest" value={this.state.interest} onChange={this.handleChange} required>
-                    <option value="" disabled>
-                      Select...
-                    </option>
-                    <option value="General Enquiry">General Enquiry</option>
-                    <option value="STEM Program">STEM Program</option>
-                    <option value="RoboCup Junior">RoboCup Junior</option>
-                    <option value="First LEGO League">First LEGO League</option>
-                    <option value="First Tech Challenge">First Tech Challenge</option>
-                  </select>
-                </div>
-                <div>
-                  <label htmlFor="contactEmail">
-                    Email <span className="required">*</span>
-                  </label>
-                  <input type="email" size="35" id="contactEmail" name="contactEmail" value={this.state.contactEmail} onChange={this.handleChange} required />
-                </div>
-                <div>
-                  <label htmlFor="contactMessage">
-                    Message <span className="required">*</span>
-                  </label>
-                  <textarea
-                    cols="50"
-                    rows="15"
-                    id="contactMessage"
-                    name="contactMessage"
-                    value={this.state.contactMessage}
-                    onChange={this.handleChange}
-                    required
-                  />
-                </div>
-                <div>
-                  <button className="submit" type="submit" onClick={this.handleSubmit} disabled={loading}>
-                    {loading ? "Sending..." : "Submit"}
-                  </button>
-                </div>
-              </fieldset>
+          <div className="row">
+            <div className="three columns"></div>
+            <div className="nine columns main-col contact-container">
+              <div className="contact-details">
+                <p className="contact-text">
+                  <span>
+                    小Dai
+                    <br />
+                    {this.props.data.address}
+                    <br />
+                    Wechat: ryandaiisme
+                    <br />
+                    {displayEmail}
+                    <br />
+                    YouTube: 小Dai的财富自由之路
+                    <br />
+                    Rednote: 小Dai的财富自由之路
+                  </span>
+                </p>
+              </div>
+              <div className="download">
+                <p>
+                  <img className="contact-pic" src="images/wechat.jpg" alt="Wechat Contact" />
+                </p>
+              </div>
             </div>
           </div>
-
-          <aside className="four columns footer-widgets">
-            <div className="widget widget_contact">
-              <h4>Email Us</h4>
-              <p className="address">
-                {displayName} <br />
-                <span>{displayEmail}</span>
-              </p>
-            </div>
-          </aside>
         </div>
       </section>
     )

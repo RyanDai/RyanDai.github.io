@@ -45,7 +45,6 @@ class App extends Component {
       <Router>
         <Routes>
           <Route path="/" element={<Home data={data} />} />
-          <Route path="/timeline" element={<Timeline />} />
         </Routes>
         <CustomFooter data={data.main} />
       </Router>

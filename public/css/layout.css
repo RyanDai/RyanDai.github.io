@@ -26,6 +26,10 @@ body {
   background: #0f0f0f;
 }
 
+p {
+  color: #01051f;
+}
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -258,12 +262,6 @@ ul#nav li.current a {
   height: 210px;
   border-radius: 10%;
 }
-#about .contact-pic {
-  position: relative;
-  width: 180px;
-  height: 180px;
-  border-radius: 5%;
-}
 
 .contact-container {
   display: flex;
@@ -275,6 +273,40 @@ ul#nav li.current a {
 #about .download {
   width: 58.33333%;
   padding-top: 6px;
+}
+#contact .contact-pic {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 5%;
+}
+#contact .contact-details {
+  width: 55%;
+  color: #b9b9b9;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#contact .download {
+  width: 45%;
+  padding: 6px;
+}
+#contact .main-col {
+  padding-right: 5%;
+}
+#contact .download .button {
+  margin-top: 6px;
+  background: #444;
+}
+#contact .download .button:hover {
+  background: #fff;
+  color: #2b2b2b;
+}
+#contact .download .button i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+.contact-text {
+  color:#efefef
 }
 #about .main-col {
   padding-right: 5%;
@@ -297,7 +329,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-  background: #fff;
+  background: #ecffea;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -404,7 +436,7 @@ ul#nav li.current a {
 /* Styling */
 
 #milestones {
-  background: #fff;
+  background: #d2f9fc;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -668,7 +700,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #robocup {
-  background: #fff;
+  background: #e1e1e1;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
