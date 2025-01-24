@@ -26,14 +26,18 @@ body {
   background: #0f0f0f;
 }
 
+p {
+  color: #01051f;
+}
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
 #logo-image {
-  background-image: url("../images/logo_black.jpg");
+  background-image: url("../images/logo.jpg");
   width: 100%; /* Set the width of the div */
-  height: 250px;
+  height: 200px;
   margin: auto;
   background-size: contain; /* Ensures the image covers the entire div */
   background-position: center; /* Centers the image in the div */
@@ -101,7 +105,7 @@ header .banner-text hr {
 
 /* header social links */
 header .social {
-  margin: 24px 0;
+  margin: 200px 0;
   padding: 0;
   font-size: 30px;
 }
@@ -233,8 +237,13 @@ ul#nav li.current a {
 }
 
 #about h2 {
-  font: 22px/30px "opensans-bold", sans-serif;
+  font: 26px/34px "opensans-bold", sans-serif;
   color: #fff;
+  margin-bottom: 12px;
+}
+#about h3 {
+  font: 18px/28px "opensans-bold", sans-serif;
+  color: #cdcdcd;
   margin-bottom: 12px;
 }
 #about p {
@@ -253,12 +262,6 @@ ul#nav li.current a {
   height: 210px;
   border-radius: 10%;
 }
-#about .contact-pic {
-  position: relative;
-  width: 180px;
-  height: 180px;
-  border-radius: 5%;
-}
 
 .contact-container {
   display: flex;
@@ -270,6 +273,40 @@ ul#nav li.current a {
 #about .download {
   width: 58.33333%;
   padding-top: 6px;
+}
+#contact .contact-pic {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 5%;
+}
+#contact .contact-details {
+  width: 55%;
+  color: #b9b9b9;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#contact .download {
+  width: 45%;
+  padding: 6px;
+}
+#contact .main-col {
+  padding-right: 5%;
+}
+#contact .download .button {
+  margin-top: 6px;
+  background: #444;
+}
+#contact .download .button:hover {
+  background: #fff;
+  color: #2b2b2b;
+}
+#contact .download .button i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+.contact-text {
+  color:#efefef
 }
 #about .main-col {
   padding-right: 5%;
@@ -292,7 +329,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-  background: #fff;
+  background: #ecffea;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -393,13 +430,13 @@ ul#nav li.current a {
 }
 
 .prideContainer {
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
 
 /* Styling */
 
 #milestones {
-  background: #fff;
+  background: #d2f9fc;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -663,7 +700,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #robocup {
-  background: #fff;
+  background: #e1e1e1;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
@@ -1401,21 +1438,27 @@ footer .social-links li:first-child {
   background-color: #0f9095;
 }
 
+.social {
+  padding-top: 60px;
+}
+
 .social .btn:first-child {
   margin-right: 30px;
 }
 .social .btn {
   padding-left: 30px;
   padding-right: 30px;
+  height: 60px;
+  width: 180px;
 }
 .social .btn i {
-  margin-right: 5px;
+  margin: auto;
   height: 24px;
   width: 30px;
 }
 .project-btn {
-  background-color: #1abc9c !important;
+  background-color: #d76c6c !important;
 }
 .github-btn {
-  background-color: #34495e !important;
+  background-color: #316090 !important;
 }
