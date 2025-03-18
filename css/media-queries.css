@@ -237,6 +237,15 @@
    }
    #about .main-col { padding-right: 30px; }
 
+   /* Review Section
+   -------------------------------------------------------------------- */
+   .review-image {
+      margin-bottom: 20px;
+      margin-right: 0px;
+      width: 100%;
+      height: auto;
+   }
+
 
    /* Resume Section
    --------------------------------------------------------------------- */
@@ -281,6 +290,19 @@
    .roboCupVideo {
       max-width: 100%;
    }
+
+            /* Reviews Section
+   --------------------------------------------------------------------- */
+   #reviews .header-col {
+      padding-top: 0;
+      margin-bottom: 48px;
+      text-align: center;
+   }
+   #reviews h1 { letter-spacing: 3px; }
+   #reviews .main-col { padding-right: 30px; }
+   #reviews h3, #reviews .info { text-align: center; }
+      
+   .bars { width: 100%; }
 
 
    /* Call To Action Section
