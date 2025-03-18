@@ -46,6 +46,11 @@ class Header extends Component {
                 买房细节
               </a>
             </li>
+            <li>
+              <a className="smoothscroll" href="#reviews">
+                客户评价
+              </a>
+            </li>
 
             <li>
               <a className="smoothscroll" href="#robocup">

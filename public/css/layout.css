@@ -696,6 +696,41 @@ ul#nav li.current a {
 }  */
 
 /* ------------------------------------------------------------------ */
+/* e. Reviews Section
+/* ------------------------------------------------------------------ */
+
+#reviews {
+  background: #ecc9fd;
+  padding-top: 90px;
+  padding-bottom: 72px;
+  overflow: hidden;
+}
+
+#reviews a,
+#reviews a:visited {
+  color: #0762f9;
+}
+#reviews a:hover,
+#reviews a:focus {
+  color: #313131;
+}
+#reviews h1 {
+  font: 18px/24px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#reviews h1 span {
+  border-bottom: 3px solid #0762f9;
+  padding-bottom: 6px;
+}
+.review-image {
+  margin-bottom: 30px;
+  margin-right: 10px;
+  width: 40%;
+  height: auto;
+}
+
+/* ------------------------------------------------------------------ */
 /* e. Robocup Section
 /* ------------------------------------------------------------------ */
 

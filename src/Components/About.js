@@ -4,7 +4,6 @@ import Fade from "react-awesome-reveal"
 class About extends Component {
   render() {
     if (!this.props.data) return null
-    const drcheng_pic = "images/" + this.props.data.drcheng
 
     return (
       <section id="about">
@@ -36,7 +35,7 @@ class About extends Component {
 
           <div className="row">
             <div className="three columns">
-              <img className="drcheng-pic" src={drcheng_pic} alt="Dai" />
+              <img className="drcheng-pic" src="images/house.jpg" alt="Dai" />
             </div>
             <div className="nine columns main-col">
               <h2>我的故事</h2>
