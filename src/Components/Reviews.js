@@ -19,6 +19,8 @@ class Reviews extends Component {
               <div className="row item">
                 <div className="twelve columns">
                   <div className="">
+                    <img className="review-image" src="images/r1-2.jpg" alt="reviews" />
+                    <img className="review-image" src="images/r1-1.jpg" alt="reviews" />
                     <img className="review-image" src="images/r1.jpg" alt="reviews" />
                     <img className="review-image" src="images/r2.jpg" alt="reviews" />
                     <img className="review-image" src="images/r3.jpg" alt="reviews" />
@@ -26,6 +28,7 @@ class Reviews extends Component {
                     <img className="review-image" src="images/r5.jpg" alt="reviews" />
                     <img className="review-image" src="images/r6.jpg" alt="reviews" />
                     <img className="review-image" src="images/r7.jpg" alt="reviews" />
+                    <img className="review-image" src="images/r-8.jpg" alt="reviews" />
                   </div>
                 </div>
               </div>
