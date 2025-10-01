@@ -1,7 +1,5 @@
 {
   "main": {
-    "name": "Dai BA Service",
-    "description": "用专业知识和能力助您实现财富自由",
     "image": "DSRC.jpg",
     "club_points": {
       "line1": "Comprehensive Property Search & Due Diligence: ",
@@ -13,23 +11,16 @@
       "line2": "Our team expertly negotiates the purchase price and terms with the vendor or their representative, advocating for the best possible outcome for our clients. We also conduct a meticulous review of the purchase contract to identify any potential issues and ensure that the terms are favorable. This careful attention to detail helps protect our clients' interests throughout the buying process.",
       "line3": "We offer dedicated pre-settlement support to guide clients through the final steps of the property acquisition process, addressing any questions or concerns that may arise. Furthermore, we connect clients with trusted third-party professionals, such as conveyancers, property managers, quantity surveyors, and building and pest inspectors, to facilitate a smooth and efficient investment property purchase. This comprehensive support ensures our clients feel confident and informed every step of the way."
     },
-    "bio": "Dr. Shane Cheng, a skilled electronic engineer, software developer, and data scientist with a PhD in Computer Vision—and a passionate father of two. In 2023, Dr. Cheng noticed something troubling: many kids who were excited about robotics were missing out because their schools didn’t offer robotics programs. Driven by his love for technology and education, he decided to make a difference. That’s when DR STEM Robotics Club was born. Through hands-on weekly workshops and expert coaching, Dr. Cheng is dedicated to helping young minds grow by fostering creativity, problem solving, and teamwork in a fun, engaging environment.",
-    "pride": "Under Dr. Cheng's mentorship, his teams have quickly risen to national prominence. His team, \"The Wall-E Pro,\" won first place in the rescue maze at the National RoboCup Junior Australia, while his team, \"Error 451,\" earned third place in the primary rescue line at the same event. In addition, his First Lego League team, \"Brickbot Battalion,\" secured first place in robot performance at the 2023 First Lego League Australia National North competition. Dr. Cheng's DR STEM Robotics Club is not just about building robots; it’s about building confidence, leadership, and a love of innovation. By providing students with the tools and guidance they need to succeed, Dr. Cheng is empowering the next generation to thrive in the rapidly evolving world of STEM.",
     "contactmessage": "Thinking about buying a investment property",
     "email": "Ryandaiproperty@gmail.com",
-    "github": "https://github.com/CyberlarkCode",
-    "project": "https://github.com/CyberlarkCode",
     "address": "Queensland, Australia",
-    "youtube": "@DRSTEMRoboticsClub",
+    "youtube": "@RyanDaiAU",
     "wechat": "/",
     "wechat_pic": "wechat.jpg",
-    "drcheng": "dr_working.jpeg",
-    "website": "http://cyberlark.com.au",
-    "resumedownload": "./images/resume.pdf",
     "social": [
       {
         "name": "youtube",
-        "url": "https://youtube.com/@drstemroboticsclub",
+        "url": "https://www.youtube.com/@RyanDaiAU",
         "className": "fa fa-youtube-square"
       },
       {
@@ -38,197 +29,5 @@
         "className": "fa fa-facebook"
       }
     ]
-  },
-  "work": {
-    "pride": [
-      {
-        "team": "The Wall-E Pro",
-        "date": "2023",
-        "desc": "1st place in the Mighty Maisy Maze Rescue at the National RoboCup Junior Australia.",
-        "image": "images/wall-e-pro.jpg"
-      },
-      {
-        "team": "Digital Dragon",
-        "date": "2023",
-        "desc": "2nd place in the Riley Rover Rescue Line at National RoboCup Junior Australia.",
-        "image": "images/digital-dragon.jpg"
-      },
-      {
-        "team": "Error 451",
-        "date": "2023",
-        "desc": "3rd place in the Primary Rescue Line at National RoboCup Junior Australia.",
-        "image": "images/error51.jpg"
-      },
-      {
-        "team": "Brickbot Battalion",
-        "date": "2023",
-        "desc": "1st place in Robot Performance Award at the 2023 First Lego League Australia National North competition",
-        "image": "images/mmexport1724984343749.jpg"
-      }
-    ],
-    "milestones": [
-      {
-        "title": "RoboRAVE World Championships",
-        "date": "2024.07",
-        "desc": ["1st and 3rd Place in Mouse Labyrinth MS", "2nd Place in LEGO Sumo ES", "3rd Place in A-Maze-Ing ES"],
-        "image": "images/robowave.jpeg"
-      },
-      {
-        "title": "FIRST LEGO League Australia National (North)",
-        "date": "2023.11",
-        "desc": ["1st Place in Robot Performance Award"],
-        "image": "images/FLL.png"
-      },
-      {
-        "title": "RoboCup Junior Australia Open",
-        "date": "2023.07",
-        "desc": ["1st Place in Mighty Maisy Maze", "2nd Place in Riley Rover Rescue", "3rd Place in Primary Rescue"],
-        "image": "images/RoboCup.png"
-      },
-      {
-        "title": "Robotic Club",
-        "date": "2023.01",
-        "desc": ["Founded by Dr. Shane Cheng in Mansfield, Queensland"],
-        "image": "images/thumbnail_0709-01.jpg"
-      }
-    ]
-  },
-  "portfolio": {
-    "projects": [
-      {
-        "title": "Website",
-        "description": "Lesi Digital Music",
-        "category": "Website",
-        "image": "LesiLogo1.png",
-        "url": "http://www.lesiea.com.au/"
-      },
-      {
-        "title": "Website",
-        "description": "Sunstate Design",
-        "category": "Website",
-        "image": "SunstateLogo1.png",
-        "url": "https://sunstatedesign.com.au/"
-      },
-      {
-        "title": "Website",
-        "description": "JRL Advanced Solar",
-        "category": "Website",
-        "image": "JRLLogo.png",
-        "url": "http://jrladvancedsolar.com.au/"
-      }
-    ]
-  },
-  "timeline": {
-    "events": [
-      {
-        "id": 1,
-        "title": "September 2024",
-        "description": ["Our first FIRST Tech Challenge team, Binary Builders, was established."],
-        "icon": "2024"
-      },
-      {
-        "id": 2,
-        "title": "August 2024",
-        "description": [
-          "Error 451 won 1st Place in Open Rescue Line.",
-          "Just Better took 1st Place in Secondary Rescue Line, with Kentucky Fried Robots coming 2nd.",
-          "Can Wreckers secured 1st Place in Primary Rescue Line, with The Pros taking 2nd.",
-          "RoboMasters won 2nd Place in Riley Rover Rescue Line, and Robot Cerberus took 3rd Place in Mighty Maisy Maze.",
-          "Our second FIRST LEGO League Challenge team, BrickBot Marines, was formed along with new FIRST LEGO League Explore teams: Wonderers, Explorers, Discoverers, and Pioneers."
-        ],
-        "icon": "2024"
-      },
-      {
-        "id": 3,
-        "title": "July 2024",
-        "description": [
-          "Robot Cerberus won 1st Place in Mouse Labyrinth, RoboRAVE World Championships, with Wall-E Pro coming 3rd in the same division.",
-          "Can Wreckers won 2nd Place in LEGO Sumo.",
-          "On-Roader won 4d Place in A-Maze-Ing."
-        ],
-        "icon": "2024"
-      },
-      {
-        "id": 4,
-        "title": "July 2024",
-        "description": ["Our coach was invited by the Islamic College Brisbane to run masterclasses for their RoboCup Junior teams."],
-        "icon": "2024"
-      },
-      {
-        "id": 5,
-        "title": "June 2024",
-        "description": [
-          "Error 451 won 1st Place in Open Rescue Line at the RoboCup Junior Brisbane Regional.",
-          "Kentucky Fried Robots took 1st Place in Secondary Rescue Line, with Just Better coming 2nd in the same division.",
-          "The Pros secured 2nd Place in Primary Rescue Line, with Can Wreckers taking 3rd.",
-          "Robot Rooster took 3rd Place in Riley Rover Rescue Line.",
-          "Robot Cerberus won 1st Place in Mighty Maisy Maze, and Wall-E Pro won 2nd Place in Standard Soccer."
-        ],
-        "icon": "2024"
-      },
-      {
-        "id": 6,
-        "title": "February 2024",
-        "description": ["New teams—Kentucky Fried Robot, Just Better, The Pros, RoboMaster, Robot Rooster, and Robot Cerberus—were created."],
-        "icon": "2024"
-      },
-      {
-        "id": 7,
-        "title": "November 2023",
-        "description": [
-          "BrickBot Battalion competed in the FIRST LEGO League Rochedale Regional, winning 1st Place in the Robot Performance Award and 2nd Place in the Core Values Award, qualifying for the national event.",
-          "BrickBot Battalion later won 1st Place in Robot Performance at the FIRST LEGO League Australia National North event."
-        ],
-        "icon": "2023"
-      },
-      {
-        "id": 8,
-        "title": "October 2023",
-        "description": [
-          "Error 451 placed 3rd in Primary Rescue Line at the RoboCup Junior Australia Open Championship.",
-          "Wall-E Pro won 1st Place in Mighty Maisy Maze.",
-          "Digital Dragons secured 2nd Place in Riley Rover Rescue."
-        ],
-        "icon": "2023"
-      },
-      {
-        "id": 9,
-        "title": "September 2023",
-        "description": ["Our first FIRST LEGO League Challenge team, BrickBot Battalion, was created."],
-        "icon": "2023"
-      },
-      {
-        "id": 10,
-        "title": "August 2023",
-        "description": [
-          "Error 451 won 1st Place in Primary Rescue Line at the RoboCup Junior Queensland State Championship.",
-          "Wall-E Pro won 1st Place in Mighty Maisy Maze.",
-          "Can Wreckers won 1st Place in Riley Rover Rescue Line, with Digital Dragons taking 3rd in the same division."
-        ],
-        "icon": "2023"
-      },
-      {
-        "id": 11,
-        "title": "July 2023",
-        "description": ["Three new teams: Wall-E Pro, Digital Dragons, and Can Wreckers—were formed."],
-        "icon": "2023"
-      },
-      {
-        "id": 12,
-        "title": "June 2023",
-        "description": ["Error 451 won 1st place at the RoboCup Junior Brisbane Regional."],
-        "icon": "2023"
-      },
-      {
-        "id": 13,
-        "title": "March 2023",
-        "description": ["DR STEM Robotics Club and the first team, Error 451, were established."],
-        "icon": "2023"
-      }
-    ],
-    "iconColourStyle": {
-      "2023": "#f9c74f",
-      "2024": "#06D6A0"
-    }
   }
 }

@@ -3,8 +3,6 @@ import Slide from "react-awesome-reveal"
 
 class Milestones extends Component {
   render() {
-    if (!this.props.data) return null
-
     return (
       <section id="milestones">
         <Slide left duration={1300} triggerOnce>
@@ -15,12 +13,12 @@ class Milestones extends Component {
               </h1>
             </div>
             <div className="nine columns main-col">
-              <ul class="milestones">
-                <li class="milestones-event">
-                  <label class="milestones-event-icon"></label>
-                  <div class="milestones-event-copy">
+              <ul className="milestones">
+                <li className="milestones-event">
+                  <label className="milestones-event-icon"></label>
+                  <div className="milestones-event-copy">
                     <div className="milestonesContainer">
-                      <p class="milestones-event-thumbnail">细节一</p>
+                      <p className="milestones-event-thumbnail">细节一</p>
                     </div>
                     <h4>只买中低价位二手house</h4>
                     <ul>
@@ -30,11 +28,11 @@ class Milestones extends Component {
                     </ul>
                   </div>
                 </li>
-                <li class="milestones-event">
-                  <label class="milestones-event-icon"></label>
-                  <div class="milestones-event-copy">
+                <li className="milestones-event">
+                  <label className="milestones-event-icon"></label>
+                  <div className="milestones-event-copy">
                     <div className="milestonesContainer">
-                      <p class="milestones-event-thumbnail">细节二</p>
+                      <p className="milestones-event-thumbnail">细节二</p>
                     </div>
                     <h4>顺周期买房</h4>
                     <ul>
@@ -44,11 +42,11 @@ class Milestones extends Component {
                     </ul>
                   </div>
                 </li>
-                <li class="milestones-event">
-                  <label class="milestones-event-icon"></label>
-                  <div class="milestones-event-copy">
+                <li className="milestones-event">
+                  <label className="milestones-event-icon"></label>
+                  <div className="milestones-event-copy">
                     <div className="milestonesContainer">
-                      <p class="milestones-event-thumbnail">细节三</p>
+                      <p className="milestones-event-thumbnail">细节三</p>
                     </div>
                     <h4>尽量不去拍卖</h4>
                     <ul>
@@ -57,11 +55,11 @@ class Milestones extends Component {
                     </ul>
                   </div>
                 </li>
-                <li class="milestones-event">
-                  <label class="milestones-event-icon"></label>
-                  <div class="milestones-event-copy">
+                <li className="milestones-event">
+                  <label className="milestones-event-icon"></label>
+                  <div className="milestones-event-copy">
                     <div className="milestonesContainer">
-                      <p class="milestones-event-thumbnail">细节四</p>
+                      <p className="milestones-event-thumbnail">细节四</p>
                     </div>
                     <h4>全程服务保障</h4>
                     <ul>

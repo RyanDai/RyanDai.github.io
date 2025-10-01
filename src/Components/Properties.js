@@ -1,12 +1,10 @@
 import React, { Component } from "react"
 import Slide from "react-awesome-reveal"
 
-class RoboCup extends Component {
+class Properties extends Component {
   render() {
-    if (!this.props.data) return null
-
     return (
-      <section id="robocup">
+      <section id="properties">
         <Slide left duration={1300} triggerOnce>
           <div className="row skill">
             <div className="three columns header-col">
@@ -25,7 +23,7 @@ class RoboCup extends Component {
                       <br />
                       <em className="date">租金820每周，租金回报5.1%</em>
                     </p>
-                    <img src="images/uc.jpg" alt="pride" />
+                    <img src="images/uc.jpg" alt="Dai BA Service" />
                   </div>
                   <div className="prideContainer">
                     <h3>珀斯Ellenbrook</h3>
@@ -34,7 +32,7 @@ class RoboCup extends Component {
                       <br />
                       <em className="date">现租金620每周，租金回报7.6%</em>
                     </p>
-                    <img src="images/ellen.jpg" alt="pride" />
+                    <img src="images/ellen.jpg" alt="Dai BA Service" />
                   </div>
                   <div className="prideContainer">
                     <h3>布里斯班Kallangur</h3>
@@ -43,7 +41,7 @@ class RoboCup extends Component {
                       <br />
                       <em className="date">租金780每周，租金回报6.5%</em>
                     </p>
-                    <img src="images/kall.jpg" alt="pride" />
+                    <img src="images/kall.jpg" alt="Dai BA Service" />
                   </div>
                   <div className="prideContainer">
                     <h3>珀斯Mandurah</h3>
@@ -52,7 +50,7 @@ class RoboCup extends Component {
                       <br />
                       <em className="date">租金620每周，租金回报6.2%</em>
                     </p>
-                    <img src="images/mandurah.jpg" alt="pride" />
+                    <img src="images/mandurah.jpg" alt="Dai BA Service" />
                   </div>
                   <div className="prideContainer">
                     <h3>布里斯班Loganholme</h3>
@@ -61,7 +59,7 @@ class RoboCup extends Component {
                       <br />
                       <em className="date">租金720每周，租金回报5.9%</em>
                     </p>
-                    <img src="images/logan.jpg" alt="pride" />
+                    <img src="images/logan.jpg" alt="Dai BA Service" />
                   </div>
                 </div>
               </div>
@@ -73,4 +71,4 @@ class RoboCup extends Component {
   }
 }
 
-export default RoboCup
+export default Properties

@@ -1,12 +1,10 @@
 import React, { Component } from "react"
 import Slide from "react-awesome-reveal"
 
-class Work extends Component {
+class Steps extends Component {
   render() {
-    if (!this.props.data) return null
-
     return (
-      <section id="resume">
+      <section id="steps">
         <Slide left duration={1300} triggerOnce>
           <div className="row education">
             <div className="three columns header-col">
@@ -47,4 +45,4 @@ class Work extends Component {
   }
 }
 
-export default Work
+export default Steps

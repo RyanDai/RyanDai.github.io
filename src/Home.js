@@ -1,10 +1,10 @@
 import React, { Component } from "react"
 import Header from "./Components/Header"
 import About from "./Components/About"
-import Work from "./Components/Work"
+import Steps from "./Components/Steps"
 import Milestones from "./Components/Milestones"
 import Reviews from "./Components/Reviews"
-import RoboCup from "./Components/RoboCup"
+import Properties from "./Components/Properties"
 import Contact from "./Components/Contact"
 
 class Home extends Component {
@@ -14,11 +14,11 @@ class Home extends Component {
     return (
       <div className="App">
         <Header data={data.main} />
-        <About data={data.main} />
-        <Work data={data.work} />
-        <Milestones data={data.work} />
-        <Reviews data={data.work} />
-        <RoboCup data={data.work} />
+        <About />
+        <Steps />
+        <Milestones />
+        <Reviews />
+        <Properties />
         <Contact data={data.main} />
       </div>
     )

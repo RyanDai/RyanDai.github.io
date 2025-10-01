@@ -3,7 +3,6 @@ import $ from "jquery"
 import "./App.css"
 import Home from "./Home"
 import Footer from "./Components/Footer"
-import Timeline from "./Timeline"
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom"
 
 class App extends Component {

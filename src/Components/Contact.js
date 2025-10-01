@@ -77,11 +77,8 @@ class Contact extends Component {
   render() {
     if (!this.props.data) return null
 
-    const displayName = this.props.data.name
     const displayEmail = this.props.data.email
     const displayMessage = this.props.data.contactmessage
-
-    const { loading } = this.state
 
     return (
       <section id="contact">
@@ -104,6 +101,8 @@ class Contact extends Component {
               <div className="contact-details">
                 <p className="contact-text">
                   <span>
+                    Dai BA Service
+                    <br />
                     小Dai
                     <br />
                     {this.props.data.address}

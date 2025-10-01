@@ -1,16 +1,8 @@
-# Dr STEM Robotics Club Homepage
-
-![Status](https://github.com/CyberlarkCode/DrStemClubHome/actions/workflows/build.yml/badge.svg)
+# DAI BA Service Homepage
 
 # How to run the project
 
-## 1. Clone the project
-
-```sh
-git clone https://github.com/CyberlarkCode/DrStemClubHome.git
-```
-
-## 2. Run the project
+## Run the project
 
 You should be able to run the project locally.
 

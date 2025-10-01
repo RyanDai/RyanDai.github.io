@@ -36,7 +36,7 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#resume">
+              <a className="smoothscroll" href="#steps">
                 买房流程
               </a>
             </li>
@@ -53,7 +53,7 @@ class Header extends Component {
             </li>
 
             <li>
-              <a className="smoothscroll" href="#robocup">
+              <a className="smoothscroll" href="#properties">
                 经典案例
               </a>
             </li>
@@ -70,10 +70,10 @@ class Header extends Component {
 
           <div className="banner-text">
             <Fade bottom triggerOnce>
-              <h1 className="responsive-headline">{name}</h1>
+              <h1 className="responsive-headline">Dai BA Service</h1>
             </Fade>
             <Fade bottom duration={1200} triggerOnce>
-              <h2>{description}</h2>
+              <h2>用专业知识和能力助您实现财富自由</h2>
             </Fade>
             <hr />
             <Fade bottom duration={2000} triggerOnce>

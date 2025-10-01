@@ -3,8 +3,6 @@ import Slide from "react-awesome-reveal"
 
 class Reviews extends Component {
   render() {
-    if (!this.props.data) return null
-
     return (
       <section id="reviews">
         <Slide left duration={1300} triggerOnce>
@@ -19,16 +17,16 @@ class Reviews extends Component {
               <div className="row item">
                 <div className="twelve columns">
                   <div className="">
-                    <img className="review-image" src="images/r1-2.jpg" alt="reviews" />
-                    <img className="review-image" src="images/r1-1.jpg" alt="reviews" />
-                    <img className="review-image" src="images/r1.jpg" alt="reviews" />
-                    <img className="review-image" src="images/r2.jpg" alt="reviews" />
-                    <img className="review-image" src="images/r3.jpg" alt="reviews" />
-                    <img className="review-image" src="images/r4.jpg" alt="reviews" />
-                    <img className="review-image" src="images/r5.jpg" alt="reviews" />
-                    <img className="review-image" src="images/r6.jpg" alt="reviews" />
-                    <img className="review-image" src="images/r7.jpg" alt="reviews" />
-                    <img className="review-image" src="images/r-8.jpg" alt="reviews" />
+                    <img className="review-image" src="images/r1-2.jpg" alt="Dai BA Service" />
+                    <img className="review-image" src="images/r1-1.jpg" alt="Dai BA Service" />
+                    <img className="review-image" src="images/r1.jpg" alt="Dai BA Service" />
+                    <img className="review-image" src="images/r2.jpg" alt="Dai BA Service" />
+                    <img className="review-image" src="images/r3.jpg" alt="Dai BA Service" />
+                    <img className="review-image" src="images/r4.jpg" alt="Dai BA Service" />
+                    <img className="review-image" src="images/r5.jpg" alt="Dai BA Service" />
+                    <img className="review-image" src="images/r6.jpg" alt="Dai BA Service" />
+                    <img className="review-image" src="images/r7.jpg" alt="Dai BA Service" />
+                    <img className="review-image" src="images/r-8.jpg" alt="Dai BA Service" />
                   </div>
                 </div>
               </div>
