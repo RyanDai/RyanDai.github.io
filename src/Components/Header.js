@@ -4,12 +4,6 @@ import Fade from "react-awesome-reveal"
 
 class Header extends Component {
   render() {
-    if (!this.props.data) return null
-
-    // const github = this.props.data.github
-    const name = this.props.data.name
-    const description = this.props.data.description
-
     return (
       <header id="home">
         <ParticlesBg type="cobweb" bg={true} color="#6495ED" />
