@@ -5,19 +5,6 @@
 *   03-18-2014
 =====================================================================
 
-   TOC:
-   a. General Styles
-   b. Header Styles
-   c. About Section
-   d. Resume Section
-   e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
-   h. Contact Section
-   i. Footer
-
-===================================================================== */
-
 /* ------------------------------------------------------------------ */
 /* a. General Styles
 /* ------------------------------------------------------------------ */
@@ -250,6 +237,13 @@ ul#nav li.current a {
   line-height: 30px;
   color: #ccc;
 }
+#about .intro {
+  line-height: 30px;
+  color: #ccc;
+}
+#about .self-intro {
+  margin-top: 12px;
+}
 #about .profile-pic {
   position: relative;
   width: 180px;
@@ -306,7 +300,7 @@ ul#nav li.current a {
   font-size: 20px;
 }
 .contact-text {
-  color:#efefef
+  color: #efefef;
 }
 #about .main-col {
   padding-right: 5%;
@@ -325,62 +319,62 @@ ul#nav li.current a {
 }
 
 /* ------------------------------------------------------------------ */
-/* d. Resume Section
+/* d. steps Section
 /* ------------------------------------------------------------------ */
 
-#resume {
+#steps {
   background: #ecffea;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
 }
 
-#resume a,
-#resume a:visited {
+#steps a,
+#steps a:visited {
   color: #0762f9;
 }
-#resume a:hover,
-#resume a:focus {
+#steps a:hover,
+#steps a:focus {
   color: #313131;
 }
 
-#resume h1 {
+#steps h1 {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#resume h1 span {
+#steps h1 span {
   border-bottom: 3px solid #0762f9;
   padding-bottom: 6px;
 }
-#resume h3 {
+#steps h3 {
   font: 25px/30px "opensans-bold", sans-serif;
 }
 
-#resume .header-col {
+#steps .header-col {
   padding-top: 9px;
 }
-#resume .main-col {
+#steps .main-col {
   padding-right: 10%;
 }
 
 .education,
-.work {
+.steps {
   margin-bottom: 48px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e8e8e8;
 }
-#resume .info {
+#steps .info {
   font: 16px/24px "opensans-regular", serif;
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
 }
-#resume .info span {
+#steps .info span {
   margin-right: 5px;
   margin-left: 5px;
 }
-#resume .date {
+#steps .date {
   font: 15px/24px "opensans-regular", sans-serif;
   margin-top: 6px;
 }
@@ -586,7 +580,7 @@ ul#nav li.current a {
 
 .viewallContainer {
   margin-top: 0px;
-  text-align: center; 
+  text-align: center;
 }
 
 .viewall-button {
@@ -731,164 +725,32 @@ ul#nav li.current a {
 }
 
 /* ------------------------------------------------------------------ */
-/* e. Robocup Section
+/* e. Properties Section
 /* ------------------------------------------------------------------ */
 
-#robocup {
+#properties {
   background: #e1e1e1;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
 }
 
-#robocup a,
-#robocup a:visited {
+#properties a,
+#properties a:visited {
   color: #0762f9;
 }
-#robocup a:hover,
-#robocup a:focus {
+#properties a:hover,
+#properties a:focus {
   color: #313131;
 }
-#robocup h1 {
+#properties h1 {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-#robocup h1 span {
+#properties h1 span {
   border-bottom: 3px solid #0762f9;
   padding-bottom: 6px;
-}
-
-/* ------------------------------------------------------------------ */
-/* e. Portfolio Section
-/* ------------------------------------------------------------------ */
-
-#portfolio {
-  background: #ebeeee;
-  padding-top: 90px;
-  padding-bottom: 60px;
-}
-
-#portfolio h1 {
-  font: 18px/24px "opensans-semibold", sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-align: center;
-  margin-bottom: 48px;
-  color: #95a3a3;
-}
-
-/* Portfolio Content */
-#portfolio-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 5px;
-  margin: 0 auto;
-}
-
-#portfolio-wrapper .columns {
-  margin-bottom: 36px;
-}
-
-.portfolio-item {
-  display: inline-block;
-  text-align: center;
-}
-
-.portfolio-item .item-wrap {
-  background: transparent;
-  padding: 0;
-  margin: 0;
-  display: inline-block;
-}
-
-.portfolio-item .item-wrap a {
-  padding: 0;
-  margin: 0;
-  background: transparent;
-  position: relative;
-  transition: all 0.3s ease-in-out;
-}
-
-/* overlay */
-.portfolio-item .item-wrap .overlay {
-  opacity: 0;
-}
-
-.portfolio-item .item-wrap .link-icon {
-  display: block;
-  color: #fff;
-  height: 30px;
-  width: 30px;
-  font-size: 18px;
-  line-height: 30px;
-  text-align: center;
-
-  opacity: 0;
-  -moz-opacity: 0;
-  filter: alpha(opacity=0);
-
-  -webkit-transition: opacity 0.3s ease-in-out;
-  -moz-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -15px;
-  margin-top: -15px;
-}
-.portfolio-item .item-wrap img {
-  vertical-align: bottom;
-}
-.portfolio-item .portfolio-item-meta {
-  padding: 0;
-}
-
-.portfolio-item .portfolio-item-meta h5 {
-  font: 14px/21px "opensans-bold", sans-serif;
-  color: #fff;
-}
-.portfolio-item .portfolio-item-meta p {
-  font: 12px/18px "opensans-light", sans-serif;
-  color: #c6c7c7;
-  margin-bottom: 0;
-}
-
-/* on hover */
-.portfolio-item:hover .overlay {
-  opacity: 1;
-  -moz-opacity: 1;
-  filter: alpha(opacity=100);
-}
-.portfolio-item:hover .link-icon {
-  opacity: 1;
-  -moz-opacity: 1;
-  filter: alpha(opacity=100);
-}
-
-/* img */
-.portfolio-item img {
-  width: 150px;
-  height: auto;
-  display: block;
-  border: 2px solid #ddd;
-  border-radius: 15px;
-  padding: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, filter 0.3s ease;
-}
-
-.portfolio-item:hover img {
-  transform: translateY(-5px);
-}
-
-.portfolio-item:active img {
-  transform: translateY(2px);
-  filter: grayscale(50%);
 }
 
 .sponserDescription {
