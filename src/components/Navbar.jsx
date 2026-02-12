@@ -18,6 +18,7 @@ function Navbar() {
     { href: '#steps', label: t.nav.steps },
     { href: '#details', label: t.nav.details },
     { href: '#reviews', label: t.nav.reviews },
+    { href: '#google-reviews', label: t.nav.googleReviews },
     { href: '#cases', label: t.nav.cases },
     { href: '#faq', label: t.nav.faq },
     { href: '#contact', label: t.nav.contact },

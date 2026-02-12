@@ -24,9 +24,9 @@ function App() {
         <Steps />
         <Details />
         <Reviews />
+        <GoogleReviews />
         <Properties />
         <ServiceAreas />
-        <GoogleReviews />
         <FAQ />
         <Contact />
         <Footer />
