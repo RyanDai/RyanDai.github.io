@@ -8,7 +8,7 @@ const translations = {
       reviews: '客户评价',
       cases: '经典案例',
       faq: '常见问题',
-      googleReviews: 'Google Reviews',
+      googleReviews: 'Google评分',
       contact: '联系我们',
     },
     hero: {
