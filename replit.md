@@ -16,19 +16,22 @@ A professional buyer's agent landing page website for Dai BA Service, a property
 - `src/i18n.js` - All Chinese and English translations
 - `src/LanguageContext.jsx` - Language context provider with toggle
 - `src/App.jsx` - Root component
-- `src/components/` - All UI components (Navbar, Hero, About, Steps, Details, Reviews, Properties, Contact, Footer)
+- `src/components/` - All UI components (Navbar, Hero, Stats, About, Steps, Details, Reviews, Properties, ServiceAreas, FAQ, Contact, Footer)
 - `src/index.css` - Complete styles
 - `vite.config.js` - Vite configuration (port 5000, host 0.0.0.0)
 
 ## Sections
-1. **Hero** - Full-screen with logo, title, subtitle, CTA buttons, social links
-2. **About** - Why choose me (4 points) + My Story
-3. **Steps** - 6-phase buying process timeline
-4. **Details** - 4 investment strategy cards
-5. **Reviews** - Client review screenshots gallery
-6. **Properties** - 5 case study cards with property images
-7. **Contact** - Contact info + WeChat QR code
-8. **Footer** - Copyright + back to top
+1. **Hero** - Full-screen with logo, title, subtitle, trust badges, CTA buttons, social links
+2. **Stats** - Animated counter banner (100+ clients, $7M+ portfolio, 6yr+ experience, 5%+ yield)
+3. **About** - Why choose me (4 points) + My Story
+4. **Steps** - 6-phase buying process timeline
+5. **Details** - 4 investment strategy cards
+6. **Reviews** - Client review screenshots gallery
+7. **Properties** - 5 case study cards with property images
+8. **Service Areas** - Coverage across Brisbane, Gold Coast, Perth, Melbourne, Regional
+9. **FAQ** - 6 common buyer agent questions with accordion
+10. **Contact** - Contact info + WeChat QR code
+11. **Footer** - Copyright + back to top
 
 ## Development
 - Dev server: `npm run dev` (port 5000, host 0.0.0.0)
@@ -42,3 +45,6 @@ A professional buyer's agent landing page website for Dai BA Service, a property
 - 2026-02-12: Full migration from CRA to Vite
 - 2026-02-12: Complete UI redesign with professional layout
 - 2026-02-12: Added Chinese/English language toggle
+- 2026-02-12: Added Stats banner, Service Areas, FAQ sections
+- 2026-02-12: Enhanced hero with trust badges
+- 2026-02-12: Improved CSS with gradients, hover effects, transitions
