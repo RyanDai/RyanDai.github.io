@@ -48,6 +48,7 @@ const translations = {
         '作为一个年轻人，从零开始六年打造了一个700万+的正现金流投资组合。',
         '我又以投资顾问和规划师的身份帮助近60位朋友们排忧解难，在投资路上更进一步。',
         '现在，我又开始了全套的买家代理服务，旨在帮助更多人复制我自己的成功投资经历。',
+        '直到今日，已经帮上百位客户建立起投资组合，大多数为老顾客，同时获得长期增值和稳定的被动收入',
       ],
     },
     steps: {
@@ -165,6 +166,7 @@ const translations = {
         'As a young person, built a $7M+ positive cash flow investment portfolio from scratch in six years.',
         'As an investment advisor and planner, helped nearly 60 friends navigate their investment journeys.',
         'Now offering full buyer\'s agent services, aiming to help more people replicate my successful investment experience.',
+        'To this day, I have helped over a hundred clients build their investment portfolios — most are returning clients — achieving long-term capital growth and stable passive income.',
       ],
     },
     steps: {
