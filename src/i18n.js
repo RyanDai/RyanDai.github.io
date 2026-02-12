@@ -262,7 +262,7 @@ const translations = {
       ],
     },
     serviceAreas: {
-      sectionTitle: 'Service Areas',
+      sectionTitle: 'Purchase Areas',
       sectionSubtitle: 'Covering Australia\'s key property investment hotspots',
       items: [
         { icon: '🏙️', name: 'Brisbane', desc: 'Queensland\'s capital, sustained population growth, massive infrastructure investment, strong long-term potential' },
