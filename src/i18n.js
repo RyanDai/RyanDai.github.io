@@ -7,6 +7,7 @@ const translations = {
       details: '买房细节',
       reviews: '客户评价',
       cases: '经典案例',
+      faq: '常见问题',
       contact: '联系我们',
     },
     hero: {
@@ -14,6 +15,15 @@ const translations = {
       subtitle: '用专业知识和能力助您实现财富自由',
       cta: '免费咨询',
       learnMore: '了解更多',
+      trustBadges: ['数据驱动选房', '全程透明服务', '正现金流投资'],
+    },
+    stats: {
+      items: [
+        { value: 100, suffix: '+', label: '服务客户' },
+        { value: 700, suffix: '万+', label: '投资组合价值' },
+        { value: 6, suffix: '年+', label: '投资经验' },
+        { value: 5, suffix: '%+', label: '平均租金回报' },
+      ],
     },
     about: {
       sectionTitle: '为什么选择我？',
@@ -100,6 +110,29 @@ const translations = {
         { location: '布里斯班Loganholme', desc: '购于2022年末，422户型590地，买入价64w，2024年七月市场估价85w', rent: '租金720每周，租金回报5.9%', img: 'logan.jpg' },
       ],
     },
+    serviceAreas: {
+      sectionTitle: '服务区域',
+      sectionSubtitle: '覆盖澳大利亚主要投资热点城市',
+      items: [
+        { icon: '🏙️', name: '布里斯班', desc: '昆州首府，人口持续增长，基建投资巨大，长期增值潜力大' },
+        { icon: '🌊', name: '黄金海岸', desc: '旅游与生活方式城市，租金回报稳定，人口持续流入' },
+        { icon: '⛏️', name: '珀斯', desc: '矿业驱动经济，房价起步低，增值空间大，高租金回报' },
+        { icon: '🏘️', name: '墨尔本', desc: '澳洲第二大城市，教育与文化中心，周期性投资机会' },
+        { icon: '🌾', name: 'Regional地区', desc: '北昆、西澳、新州等区域城镇，低入门价格，高回报潜力' },
+      ],
+    },
+    faq: {
+      sectionTitle: '常见问题',
+      sectionSubtitle: '帮助您了解买家代理服务',
+      items: [
+        { q: '什么是买家代理 (Buyer\'s Agent)？', a: '买家代理是专门代表买家利益的持牌房产专业人士。与卖家中介不同，我们只为买家服务，帮助您找到最合适的投资房产，进行专业谈判，并确保以最优价格购入。' },
+        { q: '买家代理的费用是怎样的？', a: '我们提供透明的费用结构，支持分期付款。如果对服务不满意，还支持退款（仅需支付少量人工成本）。具体费用请咨询我们，我们会根据您的需求提供详细报价。' },
+        { q: '我是海外投资者，可以使用你们的服务吗？', a: '当然可以！我们有丰富的海外客户服务经验，可以全程远程操作，从选房、看房、谈判到过户，所有流程都可以在线完成。我们会为您推荐贷款broker、律师等专业团队。' },
+        { q: '你们如何选择投资区域？', a: '我们使用数据驱动的方法，每天分析市场数据，结合六年的实战经验。我们关注人口增长、基建投资、租金回报率、空置率等关键指标，专注于发现即将上涨的区域，帮助客户在最佳时机入场。' },
+        { q: '购买投资房产需要多长时间？', a: '通常从开始搜索到完成购买需要4-12周，具体取决于市场情况和您的要求。我们会尽力在最短时间内找到最优质的房产，同时不牺牲选房质量。' },
+        { q: '你们提供售后服务吗？', a: '是的！我们在购房完成后会协助您将房产交接给物业管理公司，并持续提供投资组合建议和市场动态更新。大多数客户都是回头客，这也是我们服务质量的最好证明。' },
+      ],
+    },
     contact: {
       sectionTitle: '联系我们',
       sectionSubtitle: '期待为您服务',
@@ -125,6 +158,7 @@ const translations = {
       details: 'Strategy',
       reviews: 'Reviews',
       cases: 'Case Studies',
+      faq: 'FAQ',
       contact: 'Contact',
     },
     hero: {
@@ -132,6 +166,15 @@ const translations = {
       subtitle: 'Professional Buyer\'s Agent — Helping You Build Wealth Through Property',
       cta: 'Free Consultation',
       learnMore: 'Learn More',
+      trustBadges: ['Data-Driven Selection', 'Fully Transparent Service', 'Positive Cash Flow Focus'],
+    },
+    stats: {
+      items: [
+        { value: 100, suffix: '+', label: 'Clients Served' },
+        { value: 7, suffix: 'M+', label: 'Portfolio Value' },
+        { value: 6, suffix: 'yr+', label: 'Experience' },
+        { value: 5, suffix: '%+', label: 'Avg. Rental Yield' },
+      ],
     },
     about: {
       sectionTitle: 'Why Choose Me?',
@@ -216,6 +259,29 @@ const translations = {
         { location: 'Kallangur, Brisbane', desc: 'Purchased late 2022, 4bed/2bath/2car on 620sqm, bought at $610K, valued at $880K by July 2024', rent: 'Rent $780/week, yield 6.5%', img: 'kall.jpg' },
         { location: 'Mandurah, Perth', desc: 'Purchased late 2023, 4bed/2bath/2car on 800sqm, bought at $520K, valued at $660K by July 2024', rent: 'Rent $620/week, yield 6.2%', img: 'mandurah.jpg' },
         { location: 'Loganholme, Brisbane', desc: 'Purchased late 2022, 4bed/2bath/2car on 590sqm, bought at $640K, valued at $850K by July 2024', rent: 'Rent $720/week, yield 5.9%', img: 'logan.jpg' },
+      ],
+    },
+    serviceAreas: {
+      sectionTitle: 'Service Areas',
+      sectionSubtitle: 'Covering Australia\'s key property investment hotspots',
+      items: [
+        { icon: '🏙️', name: 'Brisbane', desc: 'Queensland\'s capital, sustained population growth, massive infrastructure investment, strong long-term potential' },
+        { icon: '🌊', name: 'Gold Coast', desc: 'Tourism and lifestyle city, stable rental returns, continuous population inflow' },
+        { icon: '⛏️', name: 'Perth', desc: 'Mining-driven economy, low entry prices, significant capital growth potential, high rental yields' },
+        { icon: '🏘️', name: 'Melbourne', desc: 'Australia\'s second-largest city, education and cultural hub, cyclical investment opportunities' },
+        { icon: '🌾', name: 'Regional Areas', desc: 'North QLD, WA, and NSW regional towns — low entry prices with high return potential' },
+      ],
+    },
+    faq: {
+      sectionTitle: 'Frequently Asked Questions',
+      sectionSubtitle: 'Learn more about our buyer\'s agent services',
+      items: [
+        { q: 'What is a Buyer\'s Agent?', a: 'A buyer\'s agent is a licensed property professional who exclusively represents the buyer\'s interests. Unlike selling agents, we work only for you — helping you find the best investment properties, negotiating professionally, and ensuring you purchase at the best possible price.' },
+        { q: 'How much do your services cost?', a: 'We offer a transparent fee structure with installment payment options. If you\'re not satisfied with our service, refunds are available (minus a small admin cost). Contact us for a detailed quote tailored to your needs.' },
+        { q: 'Can overseas investors use your services?', a: 'Absolutely! We have extensive experience serving overseas clients. The entire process can be managed remotely — from property selection, inspections, and negotiations to settlement. We\'ll also recommend trusted mortgage brokers, solicitors, and other professionals.' },
+        { q: 'How do you select investment areas?', a: 'We use a data-driven methodology, analyzing market data daily and combining it with six years of hands-on experience. We focus on key indicators like population growth, infrastructure investment, rental yields, and vacancy rates to identify suburbs poised for growth.' },
+        { q: 'How long does the buying process take?', a: 'Typically 4-12 weeks from initial search to settlement, depending on market conditions and your requirements. We aim to find quality properties as quickly as possible without compromising on selection standards.' },
+        { q: 'Do you offer after-sale support?', a: 'Yes! After purchase, we assist with property handover to management and continue providing portfolio advice and market updates. Most of our clients are repeat customers — the best testament to our service quality.' },
       ],
     },
     contact: {

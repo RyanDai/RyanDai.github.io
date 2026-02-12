@@ -32,6 +32,16 @@ function Hero() {
           {t.hero.subtitle}
         </motion.p>
         <motion.div
+          className="hero__badges"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+        >
+          {t.hero.trustBadges.map((badge, i) => (
+            <span key={i} className="hero__badge">{badge}</span>
+          ))}
+        </motion.div>
+        <motion.div
           className="hero__buttons"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

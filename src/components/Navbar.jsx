@@ -19,6 +19,7 @@ function Navbar() {
     { href: '#details', label: t.nav.details },
     { href: '#reviews', label: t.nav.reviews },
     { href: '#cases', label: t.nav.cases },
+    { href: '#faq', label: t.nav.faq },
     { href: '#contact', label: t.nav.contact },
   ]
 
