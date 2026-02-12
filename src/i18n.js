@@ -111,7 +111,7 @@ const translations = {
       ],
     },
     serviceAreas: {
-      sectionTitle: '服务区域',
+      sectionTitle: '购买区域',
       sectionSubtitle: '覆盖澳大利亚主要投资热点城市',
       items: [
         { icon: '🏙️', name: '布里斯班', desc: '昆州首府，人口持续增长，基建投资巨大，长期增值潜力大' },
