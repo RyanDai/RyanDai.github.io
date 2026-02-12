@@ -121,6 +121,12 @@ const translations = {
         { icon: '🌾', name: 'Regional地区', desc: '北昆、西澳、新州等区域城镇，低入门价格，高回报潜力' },
       ],
     },
+    googleReviews: {
+      sectionTitle: 'Google 客户评价',
+      sectionSubtitle: '来自真实客户的评价',
+      reviewsLabel: '条评价',
+      seeMore: '查看更多 Google 评价',
+    },
     faq: {
       sectionTitle: '常见问题',
       sectionSubtitle: '帮助您了解买家代理服务',
@@ -271,6 +277,12 @@ const translations = {
         { icon: '🏘️', name: 'Melbourne', desc: 'Australia\'s second-largest city, education and cultural hub, cyclical investment opportunities' },
         { icon: '🌾', name: 'Regional Areas', desc: 'North QLD, WA, and NSW regional towns — low entry prices with high return potential' },
       ],
+    },
+    googleReviews: {
+      sectionTitle: 'Google Reviews',
+      sectionSubtitle: 'Real feedback from our clients',
+      reviewsLabel: 'reviews',
+      seeMore: 'See More Google Reviews',
     },
     faq: {
       sectionTitle: 'Frequently Asked Questions',

@@ -8,6 +8,7 @@ import Details from './components/Details'
 import Reviews from './components/Reviews'
 import Properties from './components/Properties'
 import ServiceAreas from './components/ServiceAreas'
+import GoogleReviews from './components/GoogleReviews'
 import FAQ from './components/FAQ'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -25,6 +26,7 @@ function App() {
         <Reviews />
         <Properties />
         <ServiceAreas />
+        <GoogleReviews />
         <FAQ />
         <Contact />
         <Footer />
