@@ -20,7 +20,7 @@ const translations = {
     stats: {
       items: [
         { value: 100, suffix: '+', label: '服务客户' },
-        { value: 700, suffix: '万+', label: '投资组合价值' },
+        { value: 1000, suffix: '万+', label: '投资组合价值' },
         { value: 6, suffix: '年+', label: '投资经验' },
         { value: 5, suffix: '%+', label: '平均租金回报' },
       ],
@@ -55,7 +55,7 @@ const translations = {
         '2023开始买入珀斯，再次拿到西澳十五年来最佳买点。',
         '2022年起在小红书发文表明不看好墨尔本，直到2025年一月买入墨尔本东南，并帮助十余名买家在最佳时机入场墨尔本。',
         '2023年开始买入北昆，西澳，新州regional地区，再次拿到各地最佳买点。',
-        '作为一个年轻人，从零开始六年打造了一个700万+的正现金流投资组合。',
+        '作为一个年轻人，从零开始六年打造了一个1000万+的正现金流投资组合。',
         '我又以投资顾问和规划师的身份帮助近60位朋友们排忧解难，在投资路上更进一步。',
         '现在，我又开始了全套的买家代理服务，旨在帮助更多人复制我自己的成功投资经历。',
         '直到今日，已经帮上百位客户建立起投资组合，大多数为老顾客，同时获得长期增值和稳定的被动收入',
@@ -171,7 +171,7 @@ const translations = {
     stats: {
       items: [
         { value: 100, suffix: '+', label: 'Clients Served' },
-        { value: 7, suffix: 'M+', label: 'Portfolio Value' },
+        { value: 10, suffix: 'M+', label: 'Portfolio Value' },
         { value: 6, suffix: 'yr+', label: 'Experience' },
         { value: 5, suffix: '%+', label: 'Avg. Rental Yield' },
       ],
@@ -206,7 +206,7 @@ const translations = {
         'Started buying in Perth in 2023, again capturing the best entry point in Western Australia in 15 years.',
         'Published on Xiaohongshu from 2022 expressing concerns about Melbourne, then entered Melbourne\'s southeast in January 2025, helping over 10 buyers enter at the optimal time.',
         'From 2023, began investing in North QLD, WA, and NSW regional areas — once again capturing the best buying opportunities.',
-        'As a young person, built a $7M+ positive cash flow investment portfolio from scratch in six years.',
+        'As a young person, built a $10M+ positive cash flow investment portfolio from scratch in six years.',
         'As an investment advisor and planner, helped nearly 60 friends navigate their investment journeys.',
         'Now offering full buyer\'s agent services, aiming to help more people replicate my successful investment experience.',
         'To this day, I have helped over a hundred clients build their investment portfolios — most are returning clients — achieving long-term capital growth and stable passive income.',
